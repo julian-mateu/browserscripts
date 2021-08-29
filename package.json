@@ -1,0 +1,28 @@
+{
+  "name": "browserscripts",
+  "version": "1.0.0",
+  "description": "Useful scripts to use in the browser console",
+  "main": "RestrictFacebookFriends.js",
+  "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian-mateu/browserscripts.git"
+  },
+  "keywords": [
+    "JS",
+    "browser",
+    "scripts"
+  ],
+  "author": "Julian Mateu <julianmateu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julian-mateu/browserscripts/issues"
+  },
+  "homepage": "https://github.com/julian-mateu/browserscripts",
+  "dependencies": {
+    "clean-jsdoc-theme": "^3.2.8",
+    "jsdoc": "^3.6.7"
+  }
+}
